@@ -40,7 +40,7 @@ export default function Main() {
           placeholder="Enter your username"
           aria-label="Username"
         />
-        <Link className="start-quiz-btn" to={"quiz"} onClick={startQuiz}>
+        <Link className="start-quiz-btn" to={"/quiz"} onClick={startQuiz}>
           Start Quiz
         </Link>
       </form>

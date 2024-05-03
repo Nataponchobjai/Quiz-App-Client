@@ -78,7 +78,7 @@ export default function Result() {
       </div>
 
       <div className="start">
-        <Link className="btn" to={"/"} onClick={onRestart}>
+        <Link className="btn" to={"/Main"} onClick={onRestart}>
           Restart
         </Link>
       </div>
