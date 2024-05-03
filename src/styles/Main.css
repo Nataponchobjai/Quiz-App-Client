@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: #ffffff; /* Adjust the color to fit your design */
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .background-image {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .quiz-instructions {
+    text-align: left;
+    list-style-type: none; /* Removes bullet points for a cleaner look */
+    padding: 0;
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+  
+  .quiz-instructions li {
+    font-size: 20px; /* Smaller font size for compactness */
+    line-height: 1.4; /* Reduced line height for closer lines */
+    margin-bottom: 0.5px; /* Smaller margins between items */
+  }
+  
+  
+  .userid-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .start-quiz-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Example blue color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
